@@ -1,0 +1,1 @@
+Project made through the ProgramadorBR course, whose objective is to train my knowledge in HTML and CSS, producing a capture page.

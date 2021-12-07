@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    
+   
+}
+
+#size{
+
+    max-width: 1000px;
+    margin:auto;
+}
+
+body{
+
+    font-family: 'Poppins', 'Times New Roman', sans-serif;
+    background-color:black;
+}
+
+header{
+    
+    font-size:11px;
+    text-transform: uppercase;
+    text-align: center;
+    color:white;
+    background-color: rgb(86, 191, 209);
+    margin-bottom: 0;
+    padding: 5px;
+
+}
+
+
+.background{
+
+    background-image: url(/assets/images/people.jpg);
+    background-size:cover;
+    overflow: hidden;
+    margin-top: 0;
+    
+    
+
+}
+.form{
+
+    max-width: 230px;
+    background-color: #ffffffbb;
+    margin-top: 0;
+    float:right;
+    margin: 20px;
+    padding:15px;
+    
+    
+}
+
+.form h2{
+
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.form p{
+
+    font-size:12px;
+    text-align: justify;
+    margin:10px;
+}
+
+input, select{
+
+    padding:10px;
+    margin-bottom: 10px;
+    border:none;
+    box-sizing: border-box;
+    width: 100%;
+    
+    
+}
+
+input[type="submit"]{
+
+    background-color:rgb(86, 191, 209);
+    color:white;
+    text-transform: uppercase;
+    text-shadow: 25px 25px black;
+    font-weight: bold;
+}
+
+select{
+
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-image: url(./images/arrow.jpg);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 10px) center;
+}
+
+footer{
+
+    background-color:rgb(32, 30, 30);
+    color:white;
+    box-sizing: border-box;
+    padding:20px;
+    text-align: center;
+    
+    
+    
+    
+}
+
+footer img{
+
+    width:150px;
+    
+    
+  
+}
+
+.info{
+
+    text-align: justify;
+    font-size: 12px;;
+    display: inline-block;
+    max-width: 40%;
+    
+    
+}
+
+.info h3, .info p{
+
+    margin:10px;
+}
+
+.info h3{
+
+    font-size: 16px;
+}
+
+
