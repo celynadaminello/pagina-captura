@@ -87,6 +87,10 @@ input[type="submit"]{
     text-shadow: 25px 25px black;
     font-weight: bold;
 }
+.submit:hover{
+
+    background-color:rgb(33, 131, 148) ;
+    }
 
 select{
 
