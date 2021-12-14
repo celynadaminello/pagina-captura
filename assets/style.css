@@ -50,8 +50,6 @@ header{
     float:right;
     margin: 20px;
     padding:15px;
-    
-    
 }
 
 .form h2{
@@ -74,9 +72,7 @@ input, select{
     margin-bottom: 10px;
     border:none;
     box-sizing: border-box;
-    width: 100%;
-    
-    
+    width: 100%;  
 }
 
 input[type="submit"]{
@@ -109,18 +105,16 @@ footer{
     box-sizing: border-box;
     padding:20px;
     text-align: center;
-    
-    
-    
-    
 }
 
 footer img{
 
     width:150px;
-    
-    
-  
+}
+
+.imgfooter{
+
+    display:inline-block;
 }
 
 .info{
@@ -129,8 +123,6 @@ footer img{
     font-size: 12px;;
     display: inline-block;
     max-width: 40%;
-    
-    
 }
 
 .info h3, .info p{
@@ -143,4 +135,66 @@ footer img{
     font-size: 16px;
 }
 
+@media only screen and (max-width: 850px) {
+
+    .imgfooter{
+       
+        display: inline-block;
+    }
+
+    .info{
+        max-width: 40%;
+        
+    
+}
+}
+
+@media only screen and (max-width: 728px) {
+
+    .imgfooter{
+
+        margin-bottom: 5%;
+        margin-top: 5%;
+        display: inline-block;
+    }
+
+    .info{
+        max-width: 50%;
+    
+}
+}
+
+@media only screen and (max-width: 600px) {
+
+    .info{
+
+        max-width: 60%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+    footer img{
+
+        margin-bottom: 2%;
+        margin-top: 2%;
+    }
+
+    .info{
+
+        max-width: 90%;
+    }
+
+    .form{
+        
+        background-color: #ffffff5d;
+        max-width: 330px;
+        clear:right;
+        margin-right: 20%; 
+        margin-left: 20%;
+        padding:10px;
+        
+    }
+
+}
 
