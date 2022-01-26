@@ -34,7 +34,7 @@ header{
 
 .background{
 
-    background-image: url(/assets/images/people.jpg);
+    background-image: url(../assets/images/people.jpg);
     background-size:cover;
     overflow: hidden;
     margin-top: 0;
@@ -88,14 +88,11 @@ input[type="submit"]{
     background-color:rgb(33, 131, 148) ;
     }
 
-select{
+select img{
 
     -moz-appearance: none;
     -webkit-appearance: none;
     appearance: none;
-    background-image: url(./images/arrow.jpg);
-    background-repeat: no-repeat;
-    background-position: calc(100% - 10px) center;
 }
 
 footer{
